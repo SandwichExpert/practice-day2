@@ -1,3 +1,26 @@
 * {
     box-sizing : border-box;
 }
+
+
+.target{
+    width : 220px;
+    height : 220px; 
+    position : relative;
+    border : solid 2px black;
+}
+
+.red-box{
+    background-color : tomato;
+    width: 110px;
+    height : 110px;
+    top : 0px;
+    left: 49%;
+    position: absolute;
+}
+.teal-box{
+    background-color : teal;
+    width: 110px;
+    height : 110px;
+    position: absolute;
+}
